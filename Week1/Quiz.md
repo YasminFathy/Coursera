@@ -9,7 +9,7 @@ reasonable choice for P?
 
 -The process of the algorithm examining a large amount of historical weather data.
 
-#### -The probability of it correctly predicting a future date's weather.
+**-The probability of it correctly predicting a future date's weather.**
 
 -The weather prediction task.
 
@@ -31,7 +31,7 @@ tomorrow. You want to use a learning algorithm for this.
 
 Would you treat this as a classification or a regression problem?
 
-#### -Classification
+**-Classification**
 -Regression
 
 Note:
@@ -48,7 +48,7 @@ Question 3
 Suppose you are working on stock market prediction. You would like to predict whether or not a certain company will declare bankruptcy within the next 7 days (by training on data of similar companies that had previously been at risk of bankruptcy). Would you treat this as a classification or a regression problem?
 
 -Regression
-#### -Classification
+**-Classification**
 
 Note:
 -----
@@ -68,28 +68,28 @@ learning algorithm. Which of the following would you apply supervised learning t
 
 -Examine a large collection of emails that are known to be spam email, to discover if there are sub-types of spam mail.
 
-#### -Given historical data of children's ages and heights, predict children's height as a function of their age.
+**-Given historical data of children's ages and heights, predict children's height as a function of their age.**
 
-#### -Given 50 articles written by male authors, and 50 articles written by female authors, learn to predict the gender of a new manuscript's author (when the identity of this author is unknown).
+**-Given 50 articles written by male authors, and 50 articles written by female authors, learn to predict the gender of a new manuscript's author (when the identity of this author is unknown).**
 
 Note:
 -----
 
 -Take a collection of 1000 essays written on the US Economy, and find a way to automatically group these essays into a small number of groups of essays that are somehow "similar" or "related".
 
-##### This is unspervised learning/clustering problem; it is similar to the Google News example in the video lecture (Week 1).
+**This is unspervised learning/clustering problem; it is similar to the Google News example in the video lecture (Week 1).**
 
 -Examine a large collection of emails that are known to be spam email, to discover if there are sub-types of spam mail.
 
-##### This is unspervised learning/clustering problem where we need to cluster spam mail into sub-types. This problem is similar to the Google News example in the video lecture (Week 1).
+**This is unspervised learning/clustering problem where we need to cluster spam mail into sub-types. This problem is similar to the Google News example in the video lecture (Week 1).**
 
 -Given historical data of children's ages and heights, predict children's height as a function of their age.
 
-##### This is as a supervised learning (i.e. regression) problem, where we learn from labeled data (children's ages and heights) to predict children's height given their age.
+**This is as a supervised learning (i.e. regression) problem, where we learn from labeled data (children's ages and heights) to predict children's height given their age.**
 
 -Given 50 articles written by male authors, and 50 articles written by female authors, learn to predict the gender of a new manuscript's author (when the identity of this author is unknown).
 
-##### This is as a supervised learning (i.e. classification) problem, where we learn from labeled data (article labelled as written by female or male) to predict gender (i.e. female, male).
+**This is as a supervised learning (i.e. classification) problem, where we learn from labeled data (article labelled as written by female or male) to predict gender (i.e. female, male).**
 
 ------------------------------------------------------------------------------------------------
 Question 5
@@ -98,7 +98,7 @@ Which of these is a reasonable definition of machine learning?
 
 -Machine learning is the science of programming computers.
 
-#### -Machine learning is the field of study that gives computers the ability to learn without being explicitly programmed.
+**-Machine learning is the field of study that gives computers the ability to learn without being explicitly programmed.**
 
 -Machine learning learns from labeled data.
 
