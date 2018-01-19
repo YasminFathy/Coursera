@@ -32,6 +32,7 @@ tomorrow. You want to use a learning algorithm for this.
 Would you treat this as a classification or a regression problem?
 
 **-Classification**
+
 -Regression
 
 Note:
@@ -48,6 +49,7 @@ Question 3
 Suppose you are working on stock market prediction. You would like to predict whether or not a certain company will declare bankruptcy within the next 7 days (by training on data of similar companies that had previously been at risk of bankruptcy). Would you treat this as a classification or a regression problem?
 
 -Regression
+
 **-Classification**
 
 Note:
@@ -103,3 +105,8 @@ Which of these is a reasonable definition of machine learning?
 -Machine learning learns from labeled data.
 
 -Machine learning is the field of allowing robots to act intelligently.
+
+
+Note:
+-----
+This is the definiation of machine learning given by Arthur Samuel (1959), who wrote checkers playing learning program, however, he was not a good checkers player).
