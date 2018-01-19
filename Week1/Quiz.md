@@ -37,7 +37,9 @@ Would you treat this as a classification or a regression problem?
 Note:
 -----
 This problem is considered as classification problem because we have here to predict a discrete value:
+
 0 -> it won't rain
+
 1 -> it will rain
 
 ------------------------------------------------------------------------------------------------
@@ -75,19 +77,19 @@ Note:
 
 -Take a collection of 1000 essays written on the US Economy, and find a way to automatically group these essays into a small number of groups of essays that are somehow "similar" or "related".
 
-This is unspervised learning/clustering problem; it is similar to the Google News example in the video lecture (Week 1).
+##### This is unspervised learning/clustering problem; it is similar to the Google News example in the video lecture (Week 1).
 
 -Examine a large collection of emails that are known to be spam email, to discover if there are sub-types of spam mail.
 
-This is unspervised learning/clustering problem where we need to cluster spam mail into sub-types. This problem is similar to the Google News example in the video lecture (Week 1).
+##### This is unspervised learning/clustering problem where we need to cluster spam mail into sub-types. This problem is similar to the Google News example in the video lecture (Week 1).
 
 -Given historical data of children's ages and heights, predict children's height as a function of their age.
 
-This is as a supervised learning (i.e. regression) problem, where we learn from labeled data (children's ages and heights) to predict children's height given their age.
+##### This is as a supervised learning (i.e. regression) problem, where we learn from labeled data (children's ages and heights) to predict children's height given their age.
 
 -Given 50 articles written by male authors, and 50 articles written by female authors, learn to predict the gender of a new manuscript's author (when the identity of this author is unknown).
 
-This is as a supervised learning (i.e. classification) problem, where we learn from labeled data (article labelled as written by female or male) to predict gender (i.e. female, male).
+##### This is as a supervised learning (i.e. classification) problem, where we learn from labeled data (article labelled as written by female or male) to predict gender (i.e. female, male).
 
 ------------------------------------------------------------------------------------------------
 Question 5
