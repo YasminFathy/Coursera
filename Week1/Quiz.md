@@ -1,5 +1,5 @@
 
-Question 1:
+Alt-Question 1:
 ------------
 A computer program is said to learn from experience E with respect to some task T and some performance measure P if its
 performance on T, as measured by P, improves with experience E.
@@ -16,8 +16,10 @@ reasonable choice for P?
 -None of these.
 
 ##### Note:
-E:The process of the algorithm examining a large amount of historical weather data.
+E: The process of the algorithm examining a large amount of historical weather data.
+
 T: The weather prediction task.
+
 P: The probability of it correctly predicting a future date's weather.
 
 
