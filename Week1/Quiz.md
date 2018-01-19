@@ -1,5 +1,6 @@
 
 Question 1:
+------------
 A computer program is said to learn from experience E with respect to some task T and some performance measure P if its
 performance on T, as measured by P, improves with experience E.
 
@@ -16,6 +17,7 @@ reasonable choice for P?
 
 
 Question 2
+------------
 Suppose you are working on weather prediction, and you would like to predict whether or not it will be raining at 5pm
 tomorrow. You want to use a learning algorithm for this.
 
@@ -25,12 +27,14 @@ Would you treat this as a classification or a regression problem?
 -Regression
 
 Question 3
+------------
 Suppose you are working on stock market prediction. You would like to predict whether or not a certain company will declare bankruptcy within the next 7 days (by training on data of similar companies that had previously been at risk of bankruptcy). Would you treat this as a classification or a regression problem?
 
 -Regression
 -Classification
 
 Question 4
+------------
 Some of the problems below are best addressed using a supervised learning algorithm, and the others with an unsupervised
 learning algorithm. Which of the following would you apply supervised learning to? (Select all that apply.) In each case, assume some appropriate dataset is available for your algorithm to learn from.
 
@@ -43,6 +47,7 @@ learning algorithm. Which of the following would you apply supervised learning t
 -Given 50 articles written by male authors, and 50 articles written by female authors, learn to predict the gender of a new manuscript's author (when the identity of this author is unknown).
 
 Question 5
+------------
 Which of these is a reasonable definition of machine learning?
 
 -Machine learning is the science of programming computers.
