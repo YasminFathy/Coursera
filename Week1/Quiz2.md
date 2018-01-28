@@ -186,13 +186,13 @@ Explanantion:
 
 **This is not True**
 
-** If J(θ<sub>0</sub>, θ<sub>1</sub>)=0, it means that the stright line defined by the hypothesis function (y = θ<sub>0</sub> + θ<sub>1</sub>)x) perfectly fits for all of our training data examples. Such a case, it is not necessarily or there is no reasons to expect that the values of θ<sub>0</sub> and θ<sub>1</sub> that achieve (J(θ<sub>0</sub>, θ<sub>1</sub>)=0), are both 0. **
+**If J(θ<sub>0</sub>, θ<sub>1</sub>)=0, it means that the stright line defined by the hypothesis function (y = θ<sub>0</sub> + θ<sub>1</sub>)x) perfectly fits for all of our training data examples. Such a case, it is not necessarily or there is no reasons to expect that the values of θ<sub>0</sub> and θ<sub>1</sub> that achieve (J(θ<sub>0</sub>, θ<sub>1</sub>)=0), are both 0. **
 
 * Gradient descent is likely to get stuck at a local minimum and fail to find the global minimum.
 
 **This is not True**
 
-** Having J(θ<sub>0</sub>, θ<sub>1</sub>)=0 causes the straight line to fit perfectly in our training data-set/examples and does not cause the gradient descent to stuck in the local minimum.**
+**Having J(θ<sub>0</sub>, θ<sub>1</sub>)=0 causes the straight line to fit perfectly in our training data-set/examples and does not cause the gradient descent to stuck in the local minimum.**
 
 
 * Our training set can be fit perfectly by a straight line, i.e., all of our training examples lie perfectly on some straight line.
@@ -206,7 +206,7 @@ Explanantion:
 
 **This is not True**
 
-** If all of our training examples fit perfectly by a straight line, we will be able to find θ<sub>0</sub> and θ<sub>1</sub>) so that J(θ<sub>0</sub>, θ<sub>1</sub>)=0. So, it is not necessary at all that y^(i) for all our examples should be zero.**
+**If all of our training examples fit perfectly by a straight line, we will be able to find θ<sub>0</sub> and θ<sub>1</sub>) so that J(θ<sub>0</sub>, θ<sub>1</sub>)=0. So, it is not necessary at all that y^(i) for all our examples should be zero.**
 
 Answer:
 ------
