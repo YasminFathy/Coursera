@@ -151,7 +151,7 @@ and since the dervative is zero, the parameter θ<sub>j</sub> won't be changed**
 
 **This is True**
 
-**If learning rate α is small enough, then gradient descent will always take too many tiny downhill steps and decrease (θ<sub>0</sub>,θ<sub>1</sub>) a little bit. If gradient descent instead increases the cost (objective) function, this means learning rate α is too large and gradient descent won't converge or diverge.**
+**If learning rate α is small enough, then gradient descent will always take too many tiny downhill steps and decrease f(θ<sub>0</sub>,θ<sub>1</sub>) a little bit. If gradient descent instead increases the cost (objective) function, this means learning rate α is too large and gradient descent won't converge or diverge.**
 
 
 Answer:
