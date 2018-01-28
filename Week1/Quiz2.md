@@ -66,12 +66,15 @@ Given that the linear regression fits perfectly, then the cost function (i.e. sq
 Given the linear regression hypothesis function h<sub>θ</sub>(x)=θ<sub>0</sub>+θ<sub>1</sub>x
 Using any value of x and its corresponding y from the table, we can easily get the answer. For instance
 
-x= 4, y =2   *then* 2 = θ<sub>0</sub> + 4 θ<sub>1</sub> *then*  θ<sub>0</sub> = 2 - 4 θ<sub>1</sub>
+x= 4, y =2    -->  2 = θ<sub>0</sub> + 4 θ<sub>1</sub>  -->  θ<sub>0</sub> = 2 - 4 θ<sub>1</sub>  -- I
 
-x= 1, y =0.5 *then* 0.5 = θ<sub>0</sub> + θ<sub>1</sub> *then*  0.5 = 2 - 4 θ<sub>1</sub> + θ<sub>1</sub>
+x= 1, y =0.5  --> 0.5 = θ<sub>0</sub> + θ<sub>1</sub>   -->  0.5 = 2 - 4 θ<sub>1</sub> + θ<sub>1</sub> -- II
 
 
-3 θ<sub>1</sub> = 2 - 0.5 *then*
+3 θ<sub>1</sub> = 2 - 0.5  --> θ<sub>1</sub> = 1.5/3 = 0.5
+
+From I --> θ<sub>0</sub> = 2 - 4 * 0.5 = 0
+
 
 Solving these two equations together will give us the values of θ<sub>0</sub> and θ<sub>1</sub>
 
