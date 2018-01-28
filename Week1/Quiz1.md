@@ -9,19 +9,22 @@ reasonable choice for P?
 
 -The process of the algorithm examining a large amount of historical weather data.
 
-**-The probability of it correctly predicting a future date's weather.**
+-The probability of it correctly predicting a future date's weather.
 
 -The weather prediction task.
 
 -None of these.
 
-Note:
------
+Answer:
+-------
 E: The process of the algorithm examining a large amount of historical weather data.
 
 T: The weather prediction task.
 
 P: The probability of it correctly predicting a future date's weather.
+
+
+**-The probability of it correctly predicting a future date's weather.**
 
 ------------------------------------------------------------------------------------------------
 Question 2
@@ -31,17 +34,20 @@ tomorrow. You want to use a learning algorithm for this.
 
 Would you treat this as a classification or a regression problem?
 
-**-Classification**
+-Classification
 
 -Regression
 
-Note:
------
+Answer:
+-------
 This problem is considered as classification problem because we have here to predict a discrete value:
 
 0 -> it won't rain
 
 1 -> it will rain
+
+
+**-Classification**
 
 ------------------------------------------------------------------------------------------------
 Question 3
@@ -50,15 +56,17 @@ Suppose you are working on stock market prediction. You would like to predict wh
 
 -Regression
 
-**-Classification**
+-Classification
 
-Note:
------
+Answer:
+-------
 This problem is considered as classification problem because we have here to predict a discrete value:
 
 0 -> declare bankruptcy
 
 1 -> doesn't declare bankruptcy
+
+**-Classification**
 
 ------------------------------------------------------------------------------------------------
 Question 4
@@ -70,12 +78,13 @@ learning algorithm. Which of the following would you apply supervised learning t
 
 -Examine a large collection of emails that are known to be spam email, to discover if there are sub-types of spam mail.
 
-**-Given historical data of children's ages and heights, predict children's height as a function of their age.**
+-Given historical data of children's ages and heights, predict children's height as a function of their age.
 
-**-Given 50 articles written by male authors, and 50 articles written by female authors, learn to predict the gender of a new manuscript's author (when the identity of this author is unknown).**
+-Given 50 articles written by male authors, and 50 articles written by female authors, learn to predict the gender of a new manuscript's author (when the identity of this author is unknown).
 
-Note:
------
+
+Answer:
+-------
 
 -Take a collection of 1000 essays written on the US Economy, and find a way to automatically group these essays into a small number of groups of essays that are somehow "similar" or "related".
 
@@ -93,6 +102,14 @@ Note:
 
 **This is as a supervised learning (i.e. classification) problem, where we learn from labeled data (article labelled as written by female or male) to predict gender (i.e. female, male).**
 
+
+So the answers are:
+
+**-Given historical data of children's ages and heights, predict children's height as a function of their age.**
+
+**-Given 50 articles written by male authors, and 50 articles written by female authors, learn to predict the gender of a new manuscript's author (when the identity of this author is unknown).**
+
+
 ------------------------------------------------------------------------------------------------
 Question 5
 ------------
@@ -100,13 +117,16 @@ Which of these is a reasonable definition of machine learning?
 
 -Machine learning is the science of programming computers.
 
-**-Machine learning is the field of study that gives computers the ability to learn without being explicitly programmed.**
+-Machine learning is the field of study that gives computers the ability to learn without being explicitly programmed.
 
 -Machine learning learns from labeled data.
 
 -Machine learning is the field of allowing robots to act intelligently.
 
 
-Note:
------
+Answer:
+-------
 This is the definiation of machine learning given by Arthur Samuel (1959), who wrote checkers playing learning program, however, he was not a good checkers player).
+
+
+**-Machine learning is the field of study that gives computers the ability to learn without being explicitly programmed.**
