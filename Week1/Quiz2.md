@@ -211,4 +211,4 @@ Explanantion:
 Answer:
 ------
 
-**Our training set can be fit perfectly by a straight line, i.e., all of our training examples lie perfectly on some straight line.**
+* **Our training set can be fit perfectly by a straight line, i.e., all of our training examples lie perfectly on some straight line.**
