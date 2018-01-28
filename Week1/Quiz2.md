@@ -45,18 +45,16 @@ Consider the following training set of m=4 training examples:
 
 Consider the linear regression model h<sub>θ</sub>(x)=θ<sub>0</sub>+θ<sub>1</sub>x. What are the values of θ0 and θ1 that you would expect to obtain upon running gradient descent on this model? (Linear regression will be able to fit this data perfectly.)
 
-h<sub>θ</sub>(x)=θ<sub>0</sub>+θ<sub>1</sub>x
 
+* θ<sub>0</sub>=0.5, θ<sub>1</sub>=0
 
-⋅⋅* θ<sub>0</sub>=0.5, θ<sub>1</sub>=0
+* θ<sub>0</sub>=0.5, θ<sub>1</sub>=0.5
 
-⋅⋅* θ<sub>0</sub>=0.5, θ<sub>1</sub>=0.5
+* θ<sub>0</sub>=1, θ<sub>1</sub>=0.5
 
-⋅⋅* θ<sub>0</sub>=1, θ<sub>1</sub>=0.5
+* θ<sub>0</sub>=0, θ<sub>1</sub>=0.5
 
-⋅⋅* θ<sub>0</sub>=0, θ<sub>1</sub>=0.5
-
-⋅⋅* θ<sub>0</sub>=1, θ<sub>1</sub>=1
+* θ<sub>0</sub>=1, θ<sub>1</sub>=1
 
 
 
@@ -68,9 +66,12 @@ Given that the linear regression fits perfectly, then the cost function (i.e. sq
 Given the linear regression hypothesis function h<sub>θ</sub>(x)=θ<sub>0</sub>+θ<sub>1</sub>x
 Using any value of x and its corresponding y from the table, we can easily get the answer. For instance
 
-x= 4, y =2   --> 4 = θ<sub>0</sub>+ 2 θ<sub>1</sub>
+x= 4, y =2   *then* 2 = θ<sub>0</sub> + 4 θ<sub>1</sub> *then*  θ<sub>0</sub> = 2 - 4 θ<sub>1</sub>
 
-x= 1, y =0.5 --> 0.5 = θ<sub>0</sub>+ θ<sub>1</sub>
+x= 1, y =0.5 *then* 0.5 = θ<sub>0</sub> + θ<sub>1</sub> *then*  0.5 = 2 - 4 θ<sub>1</sub> + θ<sub>1</sub>
+
+
+3 θ<sub>1</sub> = 2 - 0.5 *then*
 
 Solving these two equations together will give us the values of θ<sub>0</sub> and θ<sub>1</sub>
 
