@@ -142,8 +142,9 @@ Explanantion:
 
 **This is True**
 
-**At a global minimum, the derivative (gradient/slope) is zero, so gradient descent will not change the parameter values.
-θ<sub>j</sub> := θ<sub>j</sub> - α (partial derivative of J(θ<sub>0</sub>, θ<sub>1</sub>))
+**Initializing θ<sub>0</sub> and θ<sub>1</sub> at a global minimum causes the derivative (gradient/slope) to be zero while calculating the gradient descent, so gradient descent will not change the parameter values. In more details:**
+
+**θ<sub>j</sub> := θ<sub>j</sub> - α (partial derivative of J(θ<sub>0</sub>, θ<sub>1</sub>))
 and since the dervative is zero, the parameter θ<sub>j</sub> won't be changed**
 
 * If the first few iterations of gradient descent cause f(θ<sub>0</sub>, θ<sub>1</sub>) to increase rather than decrease, then the most likely cause is that we have set the learning rate α to too large a value
