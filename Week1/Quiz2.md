@@ -85,15 +85,22 @@ Answer:
 
 ------------------------------------------------------------------------------------------------
 
-![alt text][Q3]
-
-[Q3]: https://github.com/YasminFathy/Coursera-Machine-Learning-AndrewNg/blob/master/Week1/screenshots/Quiz2_Q3.png
-
+Question 3:
+-----------
+Suppose we set θ<sub>0</sub>=−1,θ<sub>1</sub>=2 in the linear regression hypothesis from Q1. What is h<sub>θ</sub>(6)?
 
 
 Explanantion:
 --------------
 
+h<sub>θ</sub>(x)=θ<sub>0</sub>+θ<sub>1</sub>x
+
+h<sub>θ</sub>(6) = -1 + 2 x 6 = 11
+
+Answer:
+------
+
+**h<sub>θ</sub>(6) = 11**
 
 ------------------------------------------------------------------------------------------------
 
