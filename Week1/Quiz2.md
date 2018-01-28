@@ -6,7 +6,7 @@ Consider the problem of predicting how well a student does in her second year of
 
 Specifically, let x be equal to the number of "A" grades (including A-. A and A+ grades) that a student receives in their first year of college (freshmen year). We would like to predict the value of y, which we define as the number of "A" grades they get in their second year (sophomore year).
 
-Here each row is one training example. Recall that in linear regression, our hypothesis is hθ(x)=θ<sub>0</sub>+θ<sub>1</sub>x, and we use m to denote the number of training examples.
+Here each row is one training example. Recall that in linear regression, our hypothesis is h<sub>θ</sub>(x)=θ<sub>0</sub>+θ<sub>1</sub>x, and we use m to denote the number of training examples.
 
 | X  | Y | 
 |----|---| 
@@ -43,23 +43,43 @@ Consider the following training set of m=4 training examples:
 | 4  | 2 |  
 | 0  | 0 | 
 
+Consider the linear regression model h<sub>θ</sub>(x)=θ<sub>0</sub>+θ<sub>1</sub>x. What are the values of θ0 and θ1 that you would expect to obtain upon running gradient descent on this model? (Linear regression will be able to fit this data perfectly.)
 
-⋅⋅*
+h<sub>θ</sub>(x)=θ<sub>0</sub>+θ<sub>1</sub>x
 
-⋅⋅*
 
-⋅⋅*
+⋅⋅* θ<sub>0</sub>=0.5, θ<sub>1</sub>=0
 
-⋅⋅*
+⋅⋅* θ<sub>0</sub>=0.5, θ<sub>1</sub>=0.5
+
+⋅⋅* θ<sub>0</sub>=1, θ<sub>1</sub>=0.5
+
+⋅⋅* θ<sub>0</sub>=0, θ<sub>1</sub>=0.5
+
+⋅⋅* θ<sub>0</sub>=1, θ<sub>1</sub>=1
+
+
 
 Explanantion:
 --------------
+Given that the linear regression fits perfectly, then the cost function (i.e. squared error function) J(θ<sub>0</sub>,θ<sub>1</sub>)=0. This function is the mean of squares of the difference between the predicted value using hypothesis function h<sub>θ</sub>(x) and the actual values y. 
 
-Given the linear regression hypothesis function h_theta(x)
+
+Given the linear regression hypothesis function h<sub>θ</sub>(x)=θ<sub>0</sub>+θ<sub>1</sub>x
+Using any value of x and its corresponding y from the table, we can easily get the answer. For instance
+
+x= 4, y =2   --> 4 = θ<sub>0</sub>+ 2 θ<sub>1</sub>
+
+x= 1, y =0.5 --> 0.5 = θ<sub>0</sub>+ θ<sub>1</sub>
+
+Solving these two equations together will give us the values of θ<sub>0</sub> and θ<sub>1</sub>
 
 
 Answer:
 ------
+
+
+**⋅⋅* θ<sub>0</sub>=0, θ<sub>1</sub>=0.5**
 
 ------------------------------------------------------------------------------------------------
 
