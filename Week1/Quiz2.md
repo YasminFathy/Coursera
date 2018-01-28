@@ -107,29 +107,58 @@ Question 4:
 -----------
 Let f be some function so that
 
-f(θ<sub>0</sub>, θ<sub>1</sub>) outputs a number. For this problem, f is some arbitrary/unknown smooth function (not necessarily the cost function of linear regression, so f may have local optima).
+f(θ<sub>0</sub>, θ<sub>1</sub>) outputs a number. For this problem, 
+
+f is some arbitrary/unknown smooth function (not necessarily the cost function of linear regression, so f may have local optima).
 
 Suppose we use gradient descent to try to minimize f(θ<sub>0</sub>, θ<sub>1</sub>) as a function of θ<sub>0</sub> and θ<sub>1</sub>. Which of the following statements are true? (Check all that apply.)
 
-* Setting the learning rate to be very small is not harmful, and can only speed up the convergence of gradient descent.
+* Setting the learning rate α to be very small is not harmful, and can only speed up the convergence of gradient descent.
 
-* No matter how θ<sub>0</sub> and θ<sub>1</sub> are initialized, so long as learning rate \alpha is sufficiently small, we can safely expect gradient descent to converge to the same solution
+* No matter how θ<sub>0</sub> and θ<sub>1</sub> are initialized, so long as learning rate α is sufficiently small, we can safely expect gradient descent to converge to the same solution
 
 * If θ<sub>0</sub> and θ<sub>1</sub> are initialized at the global minimum, then one iteration will not change their values.
 
-* If the first few iterations of gradient descent cause f(θ<sub>0</sub>, θ<sub>1</sub>) to increase rather than decrease, then the most likely cause is that we have set the learning rate to too large a value
-
-
-
-
+* If the first few iterations of gradient descent cause f(θ<sub>0</sub>, θ<sub>1</sub>) to increase rather than decrease, then the most likely cause is that we have set the learning rate α to too large a value
 
 
 Explanantion:
 --------------
 
+* Setting the learning rate α to be very small is not harmful, and can only speed up the convergence of gradient descent.
+
+**This is not True**
+
+**When the learning rate α is too small, the gradient descent will take too many tiny (downhill) steps and decrease f(θ<sub>0</sub>,θ<sub>1</sub>) a little bit towards the convergence, so setting the learning rate to be very small, won't cause gradient descent to converge fast, but instead converging will be too slow**
+
+* No matter how θ<sub>0</sub> and θ<sub>1</sub> are initialized, so long as learning rate α is sufficiently small, we can safely expect gradient descent to converge to the same solution
+
+**This is not True**
+
+**Depending on the initial conditions of the parameters (θ<sub>0</sub> and θ<sub>1</sub>), gradient descent may end up at different local optima.**
+
+
+* If θ<sub>0</sub> and θ<sub>1</sub> are initialized at the global minimum, then one iteration will not change their values.
+
+**This is True**
+
+**At a global minimum, the derivative (gradient/slope) is zero, so gradient descent will not change the parameter values.
+θ<sub>j</sub> := θ<sub>j</sub> - α (partial derivative of J(θ<sub>0</sub>, θ<sub>1</sub>))
+and since the dervative is zero, the parameter θ<sub>j</sub> won't be changed**
+
+* If the first few iterations of gradient descent cause f(θ<sub>0</sub>, θ<sub>1</sub>) to increase rather than decrease, then the most likely cause is that we have set the learning rate α to too large a value
+
+**This is True**
+
+**If learning rate α is small enough, then gradient descent will always take too many tiny downhill steps and decrease (θ<sub>0</sub>,θ<sub>1</sub>) a little bit. If gradient descent instead increases the cost (objective) function, this means learning rate α is too large and gradient descent won't converge or diverge.**
+
+
 Answer:
 ------
 
+* **If θ<sub>0</sub> and θ<sub>1</sub> are initialized at the global minimum, then one iteration will not change their values.**
+
+* **If the first few iterations of gradient descent cause f(θ<sub>0</sub>, θ<sub>1</sub>) to increase rather than decrease, then the most likely cause is that we have set the learning rate α to too large a value.**
 
 ------------------------------------------------------------------------------------------------
 
