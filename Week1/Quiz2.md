@@ -109,17 +109,18 @@ Let f be some function so that
 
 f(θ<sub>0</sub>, θ<sub>1</sub>) outputs a number. For this problem, f is some arbitrary/unknown smooth function (not necessarily the cost function of linear regression, so f may have local optima).
 
-Suppose we use gradient descent to try to minimize f(θ<sub>0</sub>, θ<sub>1</sub>) as a function of θ<sub>0</sub> and θ<sub>1</sub>. Which of the
+Suppose we use gradient descent to try to minimize f(θ<sub>0</sub>, θ<sub>1</sub>) as a function of θ<sub>0</sub> and θ<sub>1</sub>. Which of the following statements are true? (Check all that apply.)
 
-following statements are true? (Check all that apply.)
+* Setting the learning rate to be very small is not harmful, and can only speed up the convergence of gradient descent.
 
-* Even if the learning rate α is very large, every iteration of gradient descent will decrease the value of f(θ<sub>0</sub>, θ<sub>1</sub>).
+* No matter how θ<sub>0</sub> and θ<sub>1</sub> are initialized, so long as learning rate \alpha is sufficiently small, we can safely expect gradient descent to converge to the same solution
 
-* If the learning rate is too small, then gradient descent may take a very long time to converge.
+* If θ<sub>0</sub> and θ<sub>1</sub> are initialized at the global minimum, then one iteration will not change their values.
 
-* If θ<sub>0</sub> and θ<sub>1</sub> are initialized at a local minimum, then one iteration will not change their values.
+* If the first few iterations of gradient descent cause f(θ<sub>0</sub>, θ<sub>1</sub>) to increase rather than decrease, then the most likely cause is that we have set the learning rate to too large a value
 
-* If θ<sub>0</sub> and θ<sub>1</sub> are initialized so that θ<sub>0</sub> = θ<sub>1</sub>, then by symmetry (because we do simultaneous updates to the two parameters), after one iteration of gradient descent, we will still have θ<sub>0</sub> = θ<sub>1</sub>.
+
+
 
 
 
