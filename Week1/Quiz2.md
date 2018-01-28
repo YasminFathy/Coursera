@@ -163,11 +163,52 @@ Answer:
 
 ------------------------------------------------------------------------------------------------
 
-![alt text][Q5]
+Question 5:
+-----------
 
-[Q5]: https://github.com/YasminFathy/Coursera-Machine-Learning-AndrewNg/blob/master/Week1/screenshots/Quiz2_Q5.png
+Suppose that for some linear regression problem (say, predicting housing prices as in the lecture), we have some training set, and for our training set we managed to find some θ<sub>0</sub>, θ<sub>1</sub> such that J(θ<sub>0</sub>, θ<sub>1</sub>)=0.
+
+Which of the statements below must then be true? (Check all that apply.)
+
+* For this to be true, we must have θ<sub>0</sub> = 0 and θ<sub>1</sub> = 0 so that h<sub>θ</sub>(x)=0
+
+* Gradient descent is likely to get stuck at a local minimum and fail to find the global minimum.
+
+* Our training set can be fit perfectly by a straight line, i.e., all of our training examples lie perfectly on some straight line.
+
+* For this to be true, we must have y^(i)=0 for every value of i=1,2,…,m.
 
 
 Explanantion:
 --------------
 
+* For this to be true, we must have θ<sub>0</sub> = 0 and θ<sub>1</sub> = 0 so that h<sub>θ</sub>(x)=0
+
+**This is not True**
+
+** If J(θ<sub>0</sub>, θ<sub>1</sub>)=0, it means that the stright line defined by the hypothesis function (y = θ<sub>0</sub> + θ<sub>1</sub>)x) perfectly fits for all of our training data examples. Such a case, it is not necessarily or there is no reasons to expect that the values of θ<sub>0</sub> and θ<sub>1</sub> that achieve (J(θ<sub>0</sub>, θ<sub>1</sub>)=0), are both 0. **
+
+* Gradient descent is likely to get stuck at a local minimum and fail to find the global minimum.
+
+**This is not True**
+
+** Having J(θ<sub>0</sub>, θ<sub>1</sub>)=0 causes the straight line to fit perfectly in our training data-set/examples and does not cause the gradient descent to stuck in the local minimum.**
+
+
+* Our training set can be fit perfectly by a straight line, i.e., all of our training examples lie perfectly on some straight line.
+
+**This is True**
+
+**If J(θ<sub>0</sub>, θ<sub>1</sub>)=0 is the cost function (i.e. squared error function). This function is the mean of squares of the difference between the predicted value using hypothesis function h<sub>θ</sub>(x) and the actual values y is zero. To this end, the linear regression fits perfectly by a straight line**
+
+
+* For this to be true, we must have y^(i)=0 for every value of i=1,2,…,m.
+
+**This is not True**
+
+** If all of our training examples fit perfectly by a straight line, we will be able to find θ<sub>0</sub> and θ<sub>1</sub>) so that J(θ<sub>0</sub>, θ<sub>1</sub>)=0. So, it is not necessary at all that y^(i) for all our examples should be zero.**
+
+Answer:
+------
+
+**Our training set can be fit perfectly by a straight line, i.e., all of our training examples lie perfectly on some straight line.**
