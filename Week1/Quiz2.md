@@ -73,10 +73,8 @@ x= 1, y =0.5  → 0.5 = θ<sub>0</sub> + θ<sub>1</sub>   →  0.5 = 2 - 4 θ<su
 
 3 θ<sub>1</sub> = 2 - 0.5  → θ<sub>1</sub> = 1.5/3 = 0.5
 
-From I → θ<sub>0</sub> = 2 - 4 * 0.5 = 0
+From I → θ<sub>0</sub> = 2 - 4 x 0.5 = 0
 
-
-Solving these two equations together will give us the values of θ<sub>0</sub> and θ<sub>1</sub>
 
 
 Answer:
